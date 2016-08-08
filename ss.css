@@ -8,6 +8,8 @@ h1 {
 	color:#fff;
 	font-size:200px;
 	opacity:0.5;
+	position:top-left;
+
 }
 
 input {
@@ -15,7 +17,8 @@ input {
   border-radius: 50px;
   width:200px;
   font-size:50px;
-  text-align:center;
+  background-color:rgba(255, 255, 255, 0.5);
+  border:none;
 }
 
 div {
