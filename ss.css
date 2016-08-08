@@ -1,0 +1,29 @@
+body {
+	background-image:url("http://www.suicidesquad.com/assets/images/gallery/group.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+h1 {
+	color:#fff;
+	font-size:200px;
+	opacity:0.5;
+}
+
+input {
+	padding: 50px;
+  border-radius: 50px;
+  width:200px;
+  font-size:50px;
+  text-align:center;
+}
+
+div {
+	position: absolute;
+    top: 90%;
+    left: 70%;
+    width: 500px;
+    height: 300px;
+    margin-left: -250px;
+    margin-top: -150px;
+}
