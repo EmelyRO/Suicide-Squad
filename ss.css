@@ -9,6 +9,8 @@ h1 {
 	font-size:200px;
 	opacity:0.5;
 	text-align: center;
+  margin-top: 20px;
+    margin-left: 5px;
 	
 
 }
@@ -24,10 +26,11 @@ input {
 
 div {
 	position: absolute;
-    top: 90%;
-    left: 70%;
+    top: 72%;
+    left: 99%;
     width: 500px;
     height: 300px;
     margin-left: -250px;
     margin-top: -150px;
 }
+
