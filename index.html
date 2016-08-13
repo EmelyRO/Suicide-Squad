@@ -6,11 +6,15 @@
   </head>
   <body>
 <h1> Sucker for Pain </h1>
-    <script src="ss.js"> </script>
+    <audio id="audio">
+    	<source src="https://cld.pt/dl/download/694a3a31-aadb-44be-a4a7-7c278d67b146/02.%20Sucker%20For%20Pain.mp3" type="audio/mpeg">
+    </audio>
 <div>
-<input type="button" value="PLAY"  onclick="play()">
-<audio id="audio" src="http://cdn.frkmusic.info/dl/ss/02" ></audio>
+<input type="button" class="controlbtn" value="PLAY"  onclick="audioplay()">
+<input type="button" class="controlbtn" value="PAUSE" onclick="audiopause()">
+<input type="button" class="controlbtn" value="STOP" onclick="audiostop()">
 </div>
+<script src="ss.js"> </script>
  </body>
  </html>
 
